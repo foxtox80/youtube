@@ -1,0 +1,132 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+.header {
+  padding: 20px 70px 20px 32px;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffffff;
+  width: 20px;
+  height: 17px;
+  border: none;
+  margin-right: 28px;
+}
+
+.menu-button__line {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: #1f2022;
+  border-radius: 20px;
+}
+
+.youtubelogo {
+  margin-right: 58px;
+}
+
+.input-group {
+  background: #EBEBEB;
+  border-radius: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 17px;
+  max-width: 830px;
+  width: 50%;
+}
+
+.input-group__search {
+  border: none;
+  background-color: transparent;
+  padding: 12px 23px 12px 6px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #30384C;
+}
+
+.input-group__button {
+  width: 19px;
+  height: 19px;
+  border: none;
+  background-color: transparent;
+  border-radius: 22px;
+}
+
+.icons {
+  margin-left: auto;
+}
+
+.icon-search {
+  fill: #000000;
+}
+
+.icons-link {
+  opacity: .24;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.icons-link:hover {
+  opacity: .7;
+}
+
+.icons-link + .icons-link {
+  margin-left: 50px;
+}
+
+.user {
+  margin-left: 45px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
